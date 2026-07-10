@@ -10,8 +10,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.prompts import PromptTemplate
 
-os.environ["COHERE_API_KEY"] = "SU_COHERE_API_KEY_AQUI"
-TELEGRAM_TOKEN = "SU_TELEGRAM_BOT_TOKEN_AQUI"
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 app = FastAPI(title="Educa Bot - Tutor IA", version="Final")
 PASTA_DOCS = "docs"
