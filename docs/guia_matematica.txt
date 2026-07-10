@@ -1,0 +1,7 @@
+CONCEITOS BÁSICOS DE MATEMÁTICA PARA O TUTOR:
+
+    Equações de 1º Grau: O objetivo é isolar a variável (ex: x). O que faz de um lado da igualdade, deve fazer do outro. Passou de lado, inverte o sinal (soma vira subtração, multiplicação vira divisão).
+
+    Frações: Para somar ou subtrair frações com denominadores diferentes, é obrigatório encontrar o MMC (Mínimo Múltiplo Comum) primeiro.
+
+    Regra de Três: Usada para descobrir um valor desconhecido quando se tem três valores conhecidos proporcionais. Deve-se agrupar grandezas iguais na mesma coluna.

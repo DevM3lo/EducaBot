@@ -1,0 +1,11 @@
+Tema: Inteligência Artificial na Educação: Avanço revolucionário ou risco à formação do pensamento crítico.
+
+    1.Conceito de IA na Educação
+    De acordo com o portal Brasil Escola, a Inteligência Artificial (IA) na educação funciona através de sistemas computacionais e algoritmos avançados que simulam habilidades humanas, como aprender e raciocinar, para melhorar o ensino. A Rede Nacional de Ensino e Pesquisa (RNP) explica que essa tecnologia aparece em plataformas adaptativas que mudam o conteúdo conforme o ritmo de cada aluno, e em assistentes virtuais, como o ChatGPT, Gemini e Copilot.
+
+    2.IA como Avanço Tecnológico na Educação
+    Um estudo da consultoria McKinsey & Company mostra que a automação pode poupar entre 20% e 40% do tempo dos professores. A plataforma educacional Árvore aponta que a IA ajuda a personalizar o ensino. A Confederação Nacional da Indústria (CNI) destaca o potencial da IA em criar ambientes interativos.
+
+    3.Ameaça ao Pensamento Crítico e ao Aprendizado
+    O uso sem controle afeta as funções cognitivas. A Forbes Tech e a UFSM chamam de "vício intelectual": o hábito de copiar e colar respostas prontas faz com que os estudantes pulem a etapa do esforço mental, causando uma regressão no pensamento crítico. Quando a máquina faz tudo, perde-se a criatividade e a autonomia.
+    Conclusão Geral: A IA deve funcionar como apoio, não como substituta. É preciso aproveitar as vantagens sem abrir mão do esforço mental.

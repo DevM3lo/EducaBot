@@ -1,0 +1,17 @@
+TÓPICO: Resolução de Equações do 1º Grau
+OBJETIVO: Encontrar o valor da incógnita (geralmente x) que torna a igualdade verdadeira.
+
+PASSO A PASSO DA RESOLUÇÃO:
+1. Isolar a incógnita: O objetivo principal é deixar o 'x' sozinho de um lado do sinal de igual (=).
+2. Operações Inversas: Para mover um número de um lado para o outro da equação, devemos usar a operação matemática inversa.
+   - Se o número está somando (+), ele passa para o outro lado subtraindo (-).
+   - Se o número está subtraindo (-), ele passa somando (+).
+   - Se o número está multiplicando (*), ele passa dividindo (/).
+   - Se o número está dividindo (/), ele passa multiplicando (*).
+
+EXEMPLO PRÁTICO:
+Equação: 3x - 7 = 11
+Passo 1: Passar o -7 para o outro lado como +7. Fica: 3x = 11 + 7
+Passo 2: Resolver a soma. Fica: 3x = 18
+Passo 3: O 3 está multiplicando o x. Passar para o outro lado dividindo. Fica: x = 18 / 3
+Passo 4: Resolver a divisão. Resultado final: x = 6.
