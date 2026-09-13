@@ -1,0 +1,7 @@
+# Pastas de ambiente e caches
+venv/
+__pycache__/
+
+# Pastas do Banco de Dados Vetorial (Memória do RAG)
+faiss_index/
+db_chroma/*.exe

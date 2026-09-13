@@ -1,0 +1,19 @@
+TÓPICO: Regra de Três Simples
+OBJETIVO: Descobrir um valor desconhecido em problemas que envolvem grandezas proporcionais.
+
+CONCEITO PRINCIPAL:
+Usamos a regra de três quando temos 3 valores conhecidos e queremos descobrir o 4º valor. 
+
+PASSO A PASSO DA RESOLUÇÃO:
+1. Agrupar as grandezas: Coloque grandezas iguais na mesma coluna (ex: laranjas embaixo de laranjas, dinheiro embaixo de dinheiro).
+2. Identificar a proporcionalidade: 
+   - Diretamente proporcional: Se uma aumenta, a outra também aumenta (ex: mais laranjas custam mais dinheiro). Multiplica-se cruzado (em X).
+   - Inversamente proporcional: Se uma aumenta, a outra diminui (ex: mais pedreiros constroem um muro em menos tempo). Multiplica-se em linha reta.
+3. Montar e resolver a equação: Isole o 'x' para encontrar o resultado.
+
+EXEMPLO PRÁTICO (Diretamente Proporcional):
+Problema: Se 2 kg de carne custam R$ 60, quanto custarão 5 kg?
+Montagem:
+2 kg --- R$ 60
+5 kg --- x
+Cálculo: Multiplicando cruzado: 2 * x = 5 * 60  ->  2x = 300  ->  x = 150.

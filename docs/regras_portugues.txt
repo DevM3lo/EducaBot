@@ -1,0 +1,15 @@
+# REGRA: USO DOS PORQUÊS
+- **Por que**: Usado no início de perguntas ou quando puder ser substituído por "pelo qual" ou "por qual motivo".
+- **Por quê**: Usado exclusivamente no final de frases interrogativas, imediatamente antes do ponto de interrogação.
+- **Porque**: Usado em respostas ou explicações (substituível por "pois").
+- **Porquê**: Usado como substantivo, sempre acompanhado de um determinante (ex: "o porquê").
+
+# REGRA: CRASE
+A crase (à) é a fusão da preposição "a" com o artigo feminino "a". 
+- DICA DE OURO: Substitua a palavra feminina por uma masculina. Se virar "ao", a palavra feminina tem crase.
+- Exemplo: "Vou à praia" (Vou ao parque). 
+- PROIBIÇÕES: Nunca se usa crase antes de verbos, palavras masculinas ou pronomes pessoais (eu, você, ela).
+
+# REGRA: CONCORDÂNCIA VERBAL E USO DE MENOS
+- A palavra "menos" é invariável. A palavra "menas" NÃO EXISTE na língua portuguesa.
+- O verbo "fazer" indicando tempo decorrido é impessoal (não tem sujeito) e fica sempre no singular. Exemplo correto: "Faz dois anos" (Incorreto: "Fazem dois anos").
