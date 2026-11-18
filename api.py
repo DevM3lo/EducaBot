@@ -59,7 +59,7 @@ def startup_event():
         logger.error(f"Erro ao conectar Groq: {e}")
 
     try:
-        embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
         logger.info("Embeddings (Google Gemini) conectados.")
     except Exception as e:
         logger.error(f"Erro nos Embeddings: {e}")
@@ -74,8 +74,11 @@ def startup_event():
             docs.extend(loader_txt.load_and_split(text_splitter))
             loader_pdf = DirectoryLoader(PASTA_DOCS, glob="*.pdf", loader_cls=PyPDFLoader)
             docs.extend(loader_pdf.load_and_split(text_splitter))
+            if docs:
+                vector_store = FAISS.from_documents(docs, embeddings)
+                logger.info(f"FAISS populado com {len(docs)} fragmentos!")
         except Exception as e:
-            logger.error(f"Erro ao ler documentos: {e}")
+            logger.error(f"Erro ao ler ou indexar documentos: {e}")
 
         if docs:
             vector_store = FAISS.from_documents(docs, embeddings)
