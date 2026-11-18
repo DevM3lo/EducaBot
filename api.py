@@ -53,8 +53,9 @@ def startup_event():
     logger.info("Inicializando infraestrutura na nuvem...")
 
     try:
-        llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.0, max_tokens=400)
-        logger.info("Llama 3.1 (Groq) conectado com sucesso.")
+        modelo_groq = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
+        llm = ChatGroq(model=modelo_groq, temperature=0.0, max_tokens=1024)
+        logger.info(f"Modelo {modelo_groq} (Groq) conectado com sucesso.")
     except Exception as e:
         logger.error(f"Erro ao conectar Groq: {e}")
 
