@@ -45,11 +45,10 @@ gemini_client = None
 
 
 def _sanitizar_erro(erro: Exception) -> str:
-    msg = f"{type(erro).__name__}"
-    resp = getattr(erro, "response", None)
-    if resp is not None and hasattr(resp, "status_code"):
-        msg += f" (HTTP {resp.status_code})"
-    return msg
+    texto = str(erro)
+    if TELEGRAM_TOKEN:
+        texto = texto.replace(TELEGRAM_TOKEN, "***TOKEN***")
+    return f"{type(erro).__name__}: {texto}"
 
 
 # ==========================================
@@ -145,10 +144,10 @@ def limpar_historico(chat_id: str):
 
 
 def obter_historico_recente(chat_id: str, limite: int = 10) -> list[tuple[str, str]]:
-    conn = sqlite3.connect(DB_SQLITE)
+    conn = sqlite3.connect(DB_SQLITE, timeout=15)
     c = conn.cursor()
     c.execute(
-        "SELECT role, content FROM (SELECT id, role, content FROM conversas WHERE chat_id = ? ORDER BY id DESC LIMIT ?) ORDER BY id ASC",
+        "SELECT role, content FROM (SELECT rowid, role, content FROM conversas WHERE chat_id = ? ORDER BY rowid DESC LIMIT ?) ORDER BY rowid ASC",
         (str(chat_id), limite)
     )
     rows = c.fetchall()
