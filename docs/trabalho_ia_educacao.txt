@@ -1,12 +1,9 @@
-[ESCOPO GERAL] - Tópico: O impacto da IA na Educação e o Método Socrático.
-Tema: Inteligência Artificial na Educação: Avanço revolucionário ou risco à formação do pensamento crítico.
+SOBRE O PROJETO EDUCA BOT E INTELIGÊNCIA ARTIFICIAL NA EDUCAÇÃO
 
-    1.Conceito de IA na Educação
-    De acordo com o portal Brasil Escola, a Inteligência Artificial (IA) na educação funciona através de sistemas computacionais e algoritmos avançados que simulam habilidades humanas, como aprender e raciocinar, para melhorar o ensino. A Rede Nacional de Ensino e Pesquisa (RNP) explica que essa tecnologia aparece em plataformas adaptativas que mudam o conteúdo conforme o ritmo de cada aluno, e em assistentes virtuais, como o ChatGPT, Gemini e Copilot.
+O Educa Bot é um tutor virtual inteligente desenvolvido para auxiliar estudantes do Ensino Fundamental e Médio nas disciplinas de Matemática e Língua Portuguesa diretamente pelo Telegram.
 
-    2.IA como Avanço Tecnológico na Educação
-    Um estudo da consultoria McKinsey & Company mostra que a automação pode poupar entre 20% e 40% do tempo dos professores. A plataforma educacional Árvore aponta que a IA ajuda a personalizar o ensino. A Confederação Nacional da Indústria (CNI) destaca o potencial da IA em criar ambientes interativos.
-
-    3.Ameaça ao Pensamento Crítico e ao Aprendizado
-    O uso sem controle afeta as funções cognitivas. A Forbes Tech e a UFSM chamam de "vício intelectual": o hábito de copiar e colar respostas prontas faz com que os estudantes pulem a etapa do esforço mental, causando uma regressão no pensamento crítico. Quando a máquina faz tudo, perde-se a criatividade e a autonomia.
-    Conclusão Geral: A IA deve funcionar como apoio, não como substituta. É preciso aproveitar as vantagens sem abrir mão do esforço mental.
+Objetivos na Educação:
+1. Ensino Personalizado e Ativo: Em vez de apenas entregar respostas prontas para o aluno copiar, o sistema utiliza o Método Socrático (guiando o raciocínio passo a passo com perguntas e dicas) combinado com uma regra anti-loop que explica o conteúdo caso o estudante trave.
+2. Acessibilidade Multimodal: Permite que o aluno tire dúvidas por texto, envie mensagens de voz (transcritas via Whisper) ou mande fotos de exercícios do caderno para correção comentada (via visão computacional).
+3. Fixação com Feedback Imediato: Conta com modo de simulado (/quiz) com questões verificadas automaticamente, botões interativos e acompanhamento de desempenho por tópico no banco de dados.
+4. Arquitetura Técnica: Construído em Python com FastAPI, banco vetorial FAISS para busca em apostilas (RAG), persistência em SQLite, avaliador matemático determinístico e hospedagem em nuvem 24/7.

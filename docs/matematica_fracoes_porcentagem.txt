@@ -1,0 +1,21 @@
+FRAÇÕES E PORCENTAGEM - GUIA DE ESTUDO
+
+1. O que é uma fração:
+Uma fração representa uma divisão ou parte de um todo. O número de cima é o numerador (quantas partes pegamos) e o número de baixo é o denominador (em quantas partes iguais o todo foi dividido).
+Exemplo: 3/4 significa dividir algo em 4 partes iguais e pegar 3 delas.
+
+2. Soma e subtração de frações:
+- Denominadores iguais: mantém o denominador e soma ou subtrai os numeradores. Exemplo: 2/5 + 1/5 = 3/5.
+- Denominadores diferentes: encontra-se o MMC dos denominadores para deixá-los iguais antes de somar. Exemplo: 1/2 + 1/3 -> MMC de 2 e 3 é 6 -> 3/6 + 2/6 = 5/6.
+
+3. Multiplicação e divisão de frações:
+- Multiplicação: multiplica numerador com numerador e denominador com denominador. Exemplo: 2/3 x 4/5 = 8/15.
+- Divisão: mantém a primeira fração e multiplica pelo inverso da segunda. Exemplo: (1/2) ÷ (1/4) = 1/2 x 4/1 = 4/2 = 2.
+
+4. Porcentagem:
+Porcentagem é toda fração com denominador 100. O símbolo % significa "dividido por 100".
+- 50% = 50/100 = 1/2 (metade).
+- 25% = 25/100 = 1/4 (quarta parte).
+- 10% = 10/100 = 1/10 (décima parte).
+Para calcular X% de um valor: multiplique X pelo valor e divida o resultado por 100.
+Exemplo: 20% de 150 = (20 x 150) / 100 = 3000 / 100 = 30.
